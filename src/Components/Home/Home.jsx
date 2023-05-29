@@ -33,7 +33,7 @@ const Home = () => {
     }
     const handleRemoveFromCart = id=>{
         // console.log(id);
-        const remaining = cart.filter(ts => ts._id !==id);
+        const remaining = cart.filter(ts => ts._id !== id);
         setCart(remaining);
     }
 
